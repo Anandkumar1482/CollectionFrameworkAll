@@ -1,0 +1,28 @@
+length Vs length():
+---------------------------------------------
+length:
+1) It is the final variable applicable only for arrays.
+2) It represents the size of the array.
+Example:
+-------------------------------------------------
+18int[] x=new int[3];
+System.out.println(x.length());//C.E: cannot find symbol
+System.out.println(x.length);//3
+length() method:
+---------------------------------------------------
+1) It is a final method applicable for String objects.
+2) It returns the no of characters present in the String.
+Example:
+---------------------------------------------------
+String s="bhaskar";
+System.out.println(s.length);//C.E:cannot find symbol
+System.out.println(s.length());//7
+ In multidimensional arrays length variable represents only base size but not total size.
+Example:
+--------------------------------------------------------
+int[][] a=new int[6][3];
+System.out.println(a.length);//6
+System.out.println(a[0].length);//3
+Diagram:
+length variable applicable only for arrays where as length()method is applicable for
+String objects.

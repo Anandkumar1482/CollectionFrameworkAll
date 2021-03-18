@@ -1,0 +1,5 @@
+Fill ratio (or Load factor)
+Fill ratio is also known as Load factor. 
+This factor determines when to increase the size of HashSet automatically.
+For example, for the 1st two constructors the default load factor is 0.75 –>
+which means after filling 75% of HashSet, new HashSet of bigger size will be created
